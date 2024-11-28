@@ -324,14 +324,16 @@ html {
 
 .contactme {
   text-align: center;
-  margin-top: 50px;
   min-height: 300px;
   background-color: #f9f7f7;
-  .h2 {
-    font-size: 28px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+} 
+
+.contactme  h2 {
+  font-size: 28px;
+  
 }
-}
+
 .contactme .contact-icon {
   width: 200px;  
   margin: 30px 50px;  
