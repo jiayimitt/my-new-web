@@ -18,5 +18,5 @@ This is a personal introduction webpage that showcases my skills, experience, an
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/jiayimitt/my-new-web
+   git clone https://github.com/jiayimitt/myweb
    cd MyWeb
