@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="jiayi">
-        <title>MyNewWeb</title>
+        <title>MyWeb</title>
         <link rel="stylesheet" href="./assets/css/style.css" media="all">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,30 +29,26 @@
                       <a class="head-info" href="#about">About</a>
                       <a class="head-info" href="#blog">Blog</a>
                       <a class="head-info" href="#contact">Contact</a>                    
-                  </div>                                 
-                    <nav>
-                      <ul>
-                        <li>
-                          <a id="themeSwitcher"><i class="fa-solid fa-moon dark-mode-toggle"></i></a>
-                        </li>
-                       </ul>
-                    </nav>
-                  </div>
+                    </div>                                                     
+                </div>
         </header>
         <main>
           <section>
-              <div class="hero hero-banner-1">
-                <h1>Frontend Developer,Engineer and Photographer</h1>
-                <p>I design and code beautifully simple things, and I love what I do.</p>
-                <img class="photo-id" src="./assets/img/jiayi-id.jpg">                
+              <div class="hero hero-banner">               
+                  <div class="intro-left">
+                    <h1>Hello,world!</h1>
+                    <img class="welcome" src="./assets/img/welcomeanimation-crop.gif">
+                  </div>                
+                  <div class="intro-right">
+                    <h1>Frontend Developer,Engineer and Photographer</h1>
+                    <p>I design and code beautifully simple things, and I love what I do.</p>
+                    <img class="photo-id" src="./assets/img/jiayi-id.jpg">     
+                  </div>                                     
               </div>
-              <div class="hero hero-banner-2">
-                <img class="interface" src="./assets/img/interface.png">
-              </div>
-            </section>
+          </section>
             
             <section>
-              <div class="hero hero-banner-3">
+              <div class="hero aboutme">
                 <h2 id="about">Hi, I am Jiayi. Nice to meet you.</h2>
                 <p>After working as an automotive R&D engineer for 15 years, I boldly decided to 
                   switch careers and embark on a new path in software development. Every day is 
@@ -62,7 +58,7 @@
           </section>
             
           <section>
-              <div class="hero hero-banner-4">
+              <div class="hero knowledgecard">
                 <div class="box">
                   <i class="fa-solid fa-code"></i>
                   <h3>Frontend Developer</h3>
@@ -101,70 +97,38 @@
             </div>
             <div class="mail-me">
               <h2>My Recent Work</h2>
-              <p>Here are a few past design projects I've worked on. Want to see more?<a href="mailto:your.email@example.com?subject=Hello%20There&body=I%20wanted%20to%20reach%20out%20to%20you." class="mail-me"> Mail Me</a></p>               
+              <p>Here are a few past design projects I've worked on. </p>               
             </div>
         </section>
           
         <section>
-            <div class="hero hero-banner-5" id="blog">                
+            <div class="hero recentwork" id="blog">                
               <div class="card image-1">
                 <div class="content">
-                  <h2>Client Detection!</h2> 
-                  <a href="https://clientdetection.netlify.app/" target="_blank">Go to Link</a>
+                  <h2>ShapeFactory!</h2> 
+                  <a href="https://shape-factory.netlify.app/" target="_blank">Go to Link</a>
                 </div>                
               </div>
 
               <div class="card image-2">
                 <div class="content">
-                  <h2>Travel Web!</h2> 
-                  <a href="https://stupendous-bonbon-36ccb1.netlify.app/aboutus" target="_blank">Go to Link</a>
+                  <h2>Calculator!</h2> 
+                  <a href="https://calculatorjy.netlify.app/" target="_blank">Go to Link</a>
                 </div>   
               </div>
 
               <div class="card image-3">
                 <div class="content">
-                  <h2>Temp converter!</h2> 
-                  <a href="https://duan-cree-jiyayi.netlify.app/" target="_blank">Go to Link</a>
+                  <h2>My contact!</h2> 
+                  <a href="https://jy-contacts.netlify.app/" target="_blank">Go to Link</a>
                 </div>   
               </div>
-          </div>
-
-          <div class="linked-in">
-            <button class="button-text" id="linkedin-button">See me more on LinkedIn!</button>
           </div>
         </section>
         
         <section>
-          <div id="contact" class="hero-banner-contact">               
-              
-              <h2>Contact Jiayi</h2>              
-              <div class="container-content">
-                <div class="container-form">
-                  <p>Dropping a line to say good day, ask for my resume or see if we can build something amazing together? I’d love to hear from you!</p>
-                  <p>Fill in your info in the form below and I look forward to hearing from you!</p>
-                  <form id="contact-form">
-                    <div class="field">
-                      <label for="name">Name<span class="required">*</span></label>
-                      <input type="text" name="name" id="name" required="required" placeholder="John Smith">
-                      
-                    </div>
-                    <div class="field">
-                      <label for="email">Email<span class="required">*</span></label>
-                      <input type="email" name="_replyto" id="email" required="required" placeholder="i_invented_the@internet.com">
-                      
-                    </div>
-                    <div class="field">
-                      <label for="message" class="message">Message<span class="required">*</span></label>
-                      <textarea type="textbox" name="message" id="message" required="required" placeholder="Dear Jiayi." spellcheck="false"></textarea>
-                      
-                    </div>
-                    <button class="btn" type="submit">
-                      <span>Send email</span>
-                      <i class="far fa-envelope-open" aria-hidden="true"></i>
-                    </button>
-                  </form>
-                </div>
-            </div>                   
+          <div id="contact" class="contactme">                            
+              <h2>Contact Jiayi</h2>                                           
           </div>
         </section>
       </main>
